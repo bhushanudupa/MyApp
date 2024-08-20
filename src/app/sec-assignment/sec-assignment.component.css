@@ -1,0 +1,18 @@
+#secassignment {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container {
+    width: 300px;
+    /* Adjust container width as needed */
+}
+
+.input-element {
+    width: 60%;
+    /* Make input fill the container */
+    height: 30px;
+    box-sizing: border-box;
+    /* Include padding and border in width */
+    margin-right: 10px;
+}

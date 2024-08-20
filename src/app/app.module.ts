@@ -5,18 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello/hello.component';
 import { AssignmentComponent } from './assignment/assignment.component';
+import { SecAssignmentComponent } from './sec-assignment/sec-assignment.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloComponent,
-    AssignmentComponent
+    AssignmentComponent,
+    SecAssignmentComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AssignmentComponent]
+  bootstrap: [SecAssignmentComponent]
 })
 export class AppModule { }

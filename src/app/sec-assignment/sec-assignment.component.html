@@ -1,0 +1,7 @@
+<p id="secassignment">Assignment: 2</p>
+<div class="container">
+    <input class="input-element" type="number" name="age" min="1" max="100" placeholder="Enter your age"
+        (input)="getAge($event)">
+    <input type="button" name="yearBtn" id="yearBtn" value="Show Year" (click)="calculateBirthYear()">
+</div>
+<p>You were born in <strong>{{ birthYear }}</strong></p>
